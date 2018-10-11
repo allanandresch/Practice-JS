@@ -20,7 +20,7 @@
  *
  *******************************/
 // var siteName = 'My Site';
-//
+
 // localStorage.setItem( 'siteName', siteName );
 
 
@@ -53,13 +53,13 @@
  * 1.5.3.2
  *
  *******************************/
-// var header = document.getElementsByTagName( 'h1' )[0],
-//     siteName;
-//
-// localStorage.setItem( 'siteName', 'My Site' );
-//
-// siteName = localStorage.getItem( 'siteName' );
-// header.innerHTML = siteName;
+var header = document.getElementsByTagName( 'h1' )[0],
+    siteName;
+
+localStorage.setItem( 'siteName', 'Update Site' );
+
+siteName = localStorage.getItem( 'siteName' );
+header.innerHTML = siteName;
 
 
 
@@ -173,23 +173,23 @@
  *
  *******************************/
 
-var header = document.getElementsByTagName( 'h1' )[0],
-    siteData = {
-      siteName: 'My Site',
-      siteDescription: 'Another JS Site'
-    },
-    localData;
+// var header = document.getElementsByTagName( 'h1' )[0],
+//     siteData = {
+//       siteName: 'My Site',
+//       siteDescription: 'Another JS Site'
+//     },
+//     localData;
 
 
-localStorage.setItem( 'siteData', JSON.stringify( siteData ) );
+// localStorage.setItem( 'siteData', JSON.stringify( siteData ) );
 
-localData = JSON.parse( localStorage.getItem( 'siteData' ) );
+// localData = JSON.parse( localStorage.getItem( 'siteData' ) );
 
-console.log( localData );
-console.log( localStorage.getItem( 'siteData' ) );
+// console.log( localData );
+// console.log( localStorage.getItem( 'siteData' ) );
 
 
-header.innerHTML = localData.siteName;
+// header.innerHTML = localData.siteName;
 
 
 
